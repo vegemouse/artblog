@@ -6,6 +6,9 @@ export default Ember.Component.extend({
     postFormShow() {
       this.set('addNewPost', true);
     },
+    postFormHide() {
+      this.set('addNewPost', false);
+    },
     savePost() {
       var params = {
         author: this.get('author') ? this.get('author') : "anonymous",

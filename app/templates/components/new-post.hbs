@@ -1,8 +1,9 @@
 {{#if addNewPost}}
   <div class="new-post-form">
+    <h2>New Post</h2>
     <form>
       <div class="form-group">
-        <label for="author">Author</label>
+        <label for="author">Author (you)</label>
         {{input value=author id="author"}}
       </div>
 
@@ -26,7 +27,10 @@
         {{input value=description id="description"}}
       </div>
 
-      <button {{action 'savePost' post}}>Save</button>
+      <div class="button-group">
+        <button {{action 'savePost' post}}>Add Post</button>
+        <button {{action 'postFormHide'}}>Nevermind</button>
+      </div>
     </form>
   </div>
 

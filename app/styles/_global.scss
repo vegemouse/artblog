@@ -1,17 +1,15 @@
-// body {
-//   background: #233;
-// }
-
 * {
   box-sizing: border-box;
 }
 
 #wrapper {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
+  padding-bottom: 100px;
 }
 
 a, a:hover, a:active, a:focus {
   text-decoration: none;
   color: inherit;
+  outline: 0;
 }
