@@ -1,0 +1,7 @@
+<div class="post-detail">
+  <img src={{post.imageURL}} alt={{post.title}}>
+  <p class="description">{{post.description}}</p>
+  <p class="author">Uploaded by {{post.author}}</p>
+
+  <button {{action 'delete' post}}>Delete</button>
+</div>

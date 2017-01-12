@@ -1,0 +1,17 @@
+header {
+  width: 100%;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    text-transform: lowercase;
+  }
+  nav {
+    text-transform: lowercase;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+  }
+}

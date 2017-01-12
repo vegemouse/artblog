@@ -1,0 +1,7 @@
+<div id="posts">
+{{#each model as |post|}}
+  <div class="tile">{{post-tile post=post}}</div>
+{{/each}}
+</div>
+
+{{new-post savePost="savePost"}}
