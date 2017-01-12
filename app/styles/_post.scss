@@ -1,0 +1,24 @@
+#post-page {
+  width: 80%;
+  margin: 50px auto;
+  padding: 10px 0;
+  text-align: center;
+  img {
+    width: 50%;
+  }
+  .author {
+    font-size: 0.8em;
+  }
+  button {
+    @include button;
+    margin: 5px;
+  }
+}
+
+.post-title {
+  margin: 40px 0;
+}
+
+.update-post-form {
+  @include form-module;
+}

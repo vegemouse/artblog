@@ -1,16 +1,15 @@
+<header>
+  <nav>
+    {{#link-to 'index'}}Home{{/link-to}}
+    {{#link-to 'about'}}About{{/link-to}}
+    {{#link-to 'contact'}}Contact{{/link-to}}
+  </nav>
+</header>
+
 <div id="wrapper">
-  <header>
-    {{#link-to 'index'}}<h1>Sci-Fi Art Blog</h1>{{/link-to}}
-    <nav>
-      {{#link-to 'index'}}Home{{/link-to}}
-      {{#link-to 'about'}}About{{/link-to}}
-      {{#link-to 'contact'}}Contact{{/link-to}}
-    </nav>
-  </header>
-
   {{outlet}}
-
-  <footer>
-
-  </footer>
 </div>
+
+<footer>
+
+</footer>

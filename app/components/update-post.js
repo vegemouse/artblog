@@ -6,6 +6,9 @@ export default Ember.Component.extend({
     updatePostForm() {
       this.set('updatePostForm', true);
     },
+    cancel() {
+      this.set('updatePostForm', false);
+    },
     update(post) {
       var params = {
         author: this.get('author') ? this.get('author') : "",

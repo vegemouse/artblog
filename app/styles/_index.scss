@@ -2,7 +2,6 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  margin-top: 120px;
 }
 
 .tile {
@@ -59,68 +58,5 @@
 }
 
 .new-post-form {
-  text-transform: lowercase;
-  z-index: 5;
-  border-radius: 5px;
-  height: 70vh;
-  width: 40vw;
-  min-width: 400px;
-  padding: 10px;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgb(230, 244, 242);
-  border: 1px solid grey;
-  box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.7);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  h2 {
-    margin: 0 0 20px 0;
-    font-size: 2em;
-  }
-  form {
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    .form-group {
-      margin: 10px 0;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      label {
-        margin: 0 5px;
-        font-weight: bold;
-        letter-spacing: 1px;
-        font-size: 1.1em;
-      }
-      input {
-        height: 30px;
-        width: 200px;
-        font-size: 1.5em;
-        padding: 0;
-        font-weight: lighter;
-      }
-    }
-    .button-group {
-      margin-top: 20px;
-      display: flex;
-      justify-content: space-around;
-      button {
-        text-transform: lowercase;
-        border: 0;
-        background: $teal;
-        height: 40px;
-        width: 100px;
-        transition: all 200ms ease-in-out;
-        color: white;
-        &:hover {
-          cursor: pointer;
-          background: lighten($teal, 20%);
-        }
-      }
-    }
-  }
+  @include form-module;
 }

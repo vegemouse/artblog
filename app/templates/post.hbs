@@ -1,5 +1,7 @@
-<h2>{{model.title}} by {{model.artist}}</h2>
+<div id="post-page">
+  <h2 class="post-title">{{model.title}} by {{model.artist}}</h2>
 
-{{post-detail post=model destroyPost="destroyPost"}}
+  {{post-detail post=model destroyPost="destroyPost"}}
 
-{{update-post post=model update="update"}}
+  {{update-post post=model update="update"}}
+</div>
