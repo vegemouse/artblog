@@ -1,20 +1,67 @@
-{ "posts": [{
-    "author": "Max",
-    "imageURL": "https://68.media.tumblr.com/fd561461223443ebc8cb90440e571df6/tumblr_o3fps1psQC1qztcdbo1_540.jpg",
-    "title": "Secret Paradise",
-    "artist": "Gilbert Williams",
-    "description": "Image from Celestial Visitations- The Art of Gilbert Williams (1979)"
-  }, {
-    "author": "Max",
-    "imageURL": "https://68.media.tumblr.com/e49b99c0b33a18c3392d134355cb6836/tumblr_oi1otavX711qztcdbo1_540.jpg",
-    "title": "The Green Odyssey",
-    "artist": "Angus McKie",
-    "description": "Image from the book Futuropolis (1978)"
-  }, {
-    "author": "Max",
-    "imageURL": "https://68.media.tumblr.com/69b61c67f1f9063df65254522ff45cc8/tumblr_oa9ncqhiQ61qcopsao1_500.jpg",
-    "title": "Across the Event Horizon",
-    "artist": "James McCarthy",
-    "description": "Oil on canvas, 18″x24″. Image for “Anomalistic Records” poster."
-  }]
+{
+  "posts" : {
+    "0" : {
+      "artist" : "Gilbert Williams",
+      "author" : "Max Cady",
+      "description" : "Image from Celestial Visitations- The Art of Gilbert Williams (1979)",
+      "imageURL" : "https://68.media.tumblr.com/fd561461223443ebc8cb90440e571df6/tumblr_o3fps1psQC1qztcdbo1_540.jpg",
+      "title" : "Secret Paradise"
+    },
+    "1" : {
+      "artist" : "Angus McKie",
+      "author" : "Max",
+      "description" : "Image from the book Futuropolis (1978)",
+      "imageURL" : "https://68.media.tumblr.com/e49b99c0b33a18c3392d134355cb6836/tumblr_oi1otavX711qztcdbo1_540.jpg",
+      "title" : "The Green Odyssey"
+    },
+    "2" : {
+      "artist" : "James McCarthy",
+      "author" : "Max",
+      "description" : "Oil on canvas, 18″x24″. Image for “Anomalistic Records” poster.",
+      "imageURL" : "https://68.media.tumblr.com/69b61c67f1f9063df65254522ff45cc8/tumblr_oa9ncqhiQ61qcopsao1_500.jpg",
+      "title" : "Across the Event Horizon"
+    },
+    "-KaEzzTKkgAH97H2AL2I" : {
+      "artist" : "Henry Lieves",
+      "author" : "Maxwell",
+      "description" : "No description",
+      "imageURL" : "http://68.media.tumblr.com/0622e5e9d30cfda399353ad781350ff5/tumblr_mx3b04JEa21r0c1kwo1_1280.jpg",
+      "title" : "Untitled"
+    },
+    "-KaFCSDZYwk-SGaGOttP" : {
+      "artist" : "John Berkey",
+      "author" : "Max",
+      "description" : "No description",
+      "imageURL" : "http://68.media.tumblr.com/b7fc2c69e4a0de4b69e47402514c864a/tumblr_ofzdbyF92Y1sndzdgo1_1280.jpg",
+      "title" : "Untitled"
+    },
+    "-KaFCcMmJs9bD29r_jVg" : {
+      "artist" : "Danny Flynn",
+      "author" : "Max",
+      "description" : "No description",
+      "imageURL" : "http://68.media.tumblr.com/6d2781f37e9719237f8e18aab70e8029/tumblr_mooteuU8Ze1r102r6o1_1280.jpg",
+      "title" : "Camberwell Beauty"
+    },
+    "-KaFM_APUzxOjMI7UCoc" : {
+      "artist" : "Steinar Lund",
+      "author" : "Max",
+      "description" : "For author Nigel Robinson, published by Scholastic Point in the 1990s",
+      "imageURL" : "http://68.media.tumblr.com/b272376e8dabdceeff5ad4f057e1bbcb/tumblr_o4d0y1Hxpk1qztcdbo1_1280.jpg",
+      "title" : "Second Nature"
+    },
+    "-KaFNwOlo8PB_QRSXBX0" : {
+      "artist" : "Hitoshi Yoneda",
+      "author" : "Max",
+      "description" : "No description",
+      "imageURL" : "http://68.media.tumblr.com/6af46879ffcc19360cc25f1b2c05fb3e/tumblr_mwpqowxFg01qckhr6o1_1280.jpg",
+      "title" : "Untitled"
+    },
+    "-KaFO9b_bSu9KqzGlGXU" : {
+      "artist" : "Barbara Remington",
+      "author" : "Max",
+      "description" : "For the 1965 Ballantine printing of Lord of the Rings trilogy",
+      "imageURL" : "http://68.media.tumblr.com/fa348dadd314389e180f0340b42037fd/tumblr_npgqnaV9Ic1qztcdbo1_1280.jpg",
+      "title" : "Triptych"
+    }
+  }
 }

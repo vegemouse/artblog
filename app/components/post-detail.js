@@ -7,8 +7,24 @@ export default Ember.Component.extend({
         this.sendAction('destroyPost', post);
       }
     },
+    destroyComment(comment) {
+      this.sendAction('destroyComment', comment);
+    },
     update(post, params) {
-      this.sendAction('update', post, params);
+      Object.keys(params).forEach(function(key) {
+        if(params[key]!=="") {
+          post.set(key,params[key]);
+        }
+      });
+      post.save();
+    },
+    saveComment(params) {
+      var newComment = this.store.createRecord('comment', params);
+      var post = params.post;
+      post.get('comments').addObject(newComment);
+      newComment.save().then(function() {
+        return post.save();
+      });
     },
   }
 });

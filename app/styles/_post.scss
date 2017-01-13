@@ -9,7 +9,7 @@
   .author {
     font-size: 0.8em;
   }
-  button {
+  button:not(.comment-delete) {
     @include button;
     margin: 5px;
   }
@@ -21,4 +21,34 @@
 
 .update-post-form {
   @include form-module;
+}
+
+.new-comment-form {
+  @include form-module;
+}
+
+.comment-delete {
+  background-color: transparent;
+  border: 0;
+  font-size: 1em;
+  color: red;
+  transition: all 100ms ease-in;
+  opacity: 0.5;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.9;
+  }
+}
+
+.comments {
+  border: 1px solid $teal;
+  margin: 20px auto;
+  width: 50%;
+  padding: 20px;
+  h4 {
+    margin-bottom: 10px;
+  }
+  .comment {
+    padding: 10px;
+  }
 }
