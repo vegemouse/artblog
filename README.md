@@ -1,6 +1,6 @@
 # artblog
 
-An SciFi artblog built with Ember. Users can add, delete, and edit each entry.
+An SciFi artblog built with Ember. Users can add, delete, and edit each entry, as well as add comments.
 
 ## Prerequisites
 
