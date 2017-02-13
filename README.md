@@ -1,7 +1,6 @@
 # artblog
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+An SciFi artblog built with Ember. Users can add, delete, and edit each entry.
 
 ## Prerequisites
 
